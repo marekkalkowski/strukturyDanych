@@ -1,4 +1,4 @@
-package pl.infoshare.structures._4_sets._1_implementations;
+package pl.infoshare.structures._4_sets._2_implementations;
 
 public class SetImplementationsExample {
 
