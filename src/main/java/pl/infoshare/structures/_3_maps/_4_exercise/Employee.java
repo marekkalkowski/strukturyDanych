@@ -23,4 +23,6 @@ public class Employee {
     public Integer getSalary() {
         return salary;
     }
+
+
 }

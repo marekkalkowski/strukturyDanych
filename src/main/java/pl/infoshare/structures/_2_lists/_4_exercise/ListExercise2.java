@@ -1,6 +1,11 @@
 package pl.infoshare.structures._2_lists._4_exercise;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ListExercise2 {
+
+
 
     // TODO: Ćwiczenie 2 - Slideshow
     // TODO: Zaimplementuj prosty tekstowy slideshow:
@@ -12,6 +17,19 @@ public class ListExercise2 {
     // TODO: 6. Użytkownik może usunąć dowolny slajd(*)
     // TODO: Aplikacja nie musi posiadać interfejsu użytkownika
     public static void main(String[] args) {
+
+       SlideShow lista = new SlideShow();
+
+        lista.start();
+
+
+        lista.showNext();
+        lista.showNext();
+        lista.showPrivius();
+
+
+
+
 
     }
 }

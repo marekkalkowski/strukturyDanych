@@ -1,6 +1,8 @@
 package pl.infoshare.structures._3_maps._4_exercise;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class MapsExercise2 {
 
@@ -13,5 +15,10 @@ public class MapsExercise2 {
     public static void main(String[] args) {
         EmployeeProvider employeeProvider = new EmployeeProvider();
         List<Employee> employees = employeeProvider.getEmployees();
+
+        Map<String,String> mapa = new HashMap<>();
+
+
+
     }
 }
